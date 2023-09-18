@@ -1,14 +1,13 @@
 <template>
-  <!-- <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav> -->
+  <head-title></head-title>
   <router-view />
 </template>
 
 <script lang="ts">
 import { defineComponent } from "vue";
+import headTitle from "./layout/header/head-title.vue";
 export default defineComponent({
+  components: { headTitle },
   name: "App",
 
   setup() {
