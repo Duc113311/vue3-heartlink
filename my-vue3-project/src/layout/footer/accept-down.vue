@@ -1,8 +1,8 @@
 <template>
   <div
-    class="absolute bg-slate-500 bottom-0 left-0 w-full items-center justify-center flex"
+    class="absolute bg-slate-100 bottom-0 left-0 w-full items-center justify-center flex"
   >
-    <div class="w-full pl-14 pr-14 pt-5 pb-5">
+    <div class="w-full pl-64 pr-64 pt-5 pb-5">
       <div class="text-left">
         We value your privacy. We and our partners use trackers to measure the
         audience of our website and to provide you with offers and improve our
@@ -12,7 +12,7 @@
         You can withdraw your consent at any time in your settings.
       </div>
 
-      <div class="flex justify-between items-center">
+      <div class="flex justify-between items-center mt-10">
         <div>
           <bh-button :nameButton="namePesonalise"></bh-button>
         </div>

@@ -67,7 +67,7 @@ export default defineComponent({
     let open = ref(false);
     let links = [
       { name: "About", link: "#" },
-      { name: "Packages", link: "#" },
+      { name: "Packages", link: "http://localhost:8080/package" },
       { name: "Download", link: "#" },
       { name: "Features", link: "#" },
     ];

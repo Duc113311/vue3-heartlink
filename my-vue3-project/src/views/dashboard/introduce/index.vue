@@ -5,7 +5,7 @@
 </template>
 
 <script lang="ts">
-import mainMenu from "@/components/dashboad/mainMenu.vue";
+import mainMenu from "@/components/dashboard/mainMenu.vue";
 import { defineComponent } from "vue";
 
 export default defineComponent({

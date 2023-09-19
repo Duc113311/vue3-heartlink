@@ -1,6 +1,6 @@
 <template>
   <head-title></head-title>
-  <router-view />
+  <div class="w-full h-full overflow-scroll"><router-view /></div>
 </template>
 
 <script lang="ts">
